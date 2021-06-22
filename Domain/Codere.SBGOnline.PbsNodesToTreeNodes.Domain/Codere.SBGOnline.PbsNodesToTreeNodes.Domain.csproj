@@ -8,4 +8,9 @@
     <ProjectReference Include="..\..\Models\Codere.SBGOnline.PbsNodesToTreeNodes.Models\Codere.SBGOnline.PbsNodesToTreeNodes.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+    <Folder Include="Manager\" />
+  </ItemGroup>
+
 </Project>

@@ -7,10 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Translations", "Translation
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{624ABB5C-5FFD-4461-B25F-69E2873DA771}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manager", "Manager", "{6182D6A2-51E7-46CA-B8CE-54C53C39382B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{D2CFF09D-AA8A-474F-957D-CD29CD4BB209}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codere.SBGOnline.PbsNodesToTreeNodes.Models", "Models\Codere.SBGOnline.PbsNodesToTreeNodes.Models\Codere.SBGOnline.PbsNodesToTreeNodes.Models.csproj", "{D4E6D2D8-2F27-40A7-91F2-45C1059A8926}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{435EE15B-626E-45E1-8A7E-4DAD42F76484}"
