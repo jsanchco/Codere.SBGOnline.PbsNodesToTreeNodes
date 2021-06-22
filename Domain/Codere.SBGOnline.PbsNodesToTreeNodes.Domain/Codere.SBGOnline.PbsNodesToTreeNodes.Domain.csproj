@@ -5,17 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Managers\**" />
-    <EmbeddedResource Remove="Managers\**" />
-    <None Remove="Managers\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Models\Codere.SBGOnline.PbsNodesToTreeNodes.Models\Codere.SBGOnline.PbsNodesToTreeNodes.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Helpers\" />
+    <Folder Include="Managers\" />
   </ItemGroup>
 
 </Project>
