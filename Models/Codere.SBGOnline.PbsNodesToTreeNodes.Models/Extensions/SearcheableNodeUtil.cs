@@ -1,5 +1,4 @@
-﻿using Codere.SBGOnline.PbsNodesToTreeNodes.Model;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Codere.SBGOnline.PbsNodesToTreeNodes.Models.Extensions
 {

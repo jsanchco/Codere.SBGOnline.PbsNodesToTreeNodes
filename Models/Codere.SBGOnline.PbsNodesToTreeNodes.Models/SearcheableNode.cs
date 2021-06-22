@@ -1,14 +1,13 @@
-﻿using Codere.SBGOnline.PbsNodesToTreeNodes.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace Codere.SBGOnline.PbsNodesToTreeNodes.Model
+namespace Codere.SBGOnline.PbsNodesToTreeNodes.Models
 {
     [KnownType(typeof(SearcheableNode))]
     [KnownType(typeof(EventSearchableNode))]
-    //[KnownType(typeof(GameSearchableNode))]
-    //[KnownType(typeof(ResultSearchableNode))]
+    [KnownType(typeof(GameSearchableNode))]
+    [KnownType(typeof(ResultSearchableNode))]
     //[KnownType(typeof(ResultGreyhoundHorseSearchableNode))]
     //[KnownType(typeof(GameGreyhoundHorseSearchableNode))]
     //[KnownType(typeof(EventGreyhoundHorseSearchableNode))]

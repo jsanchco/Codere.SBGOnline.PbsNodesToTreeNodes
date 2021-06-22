@@ -1,0 +1,1038 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ST_BS_BET_CANCELLED" xml:space="preserve">
+    <value>Ezeztatuta</value>
+  </data>
+  <data name="ST_BS_BET_DECLINED" xml:space="preserve">
+    <value>Ez onartuta</value>
+  </data>
+  <data name="ST_BS_BET_LOST" xml:space="preserve">
+    <value>Galduta</value>
+  </data>
+  <data name="ST_BS_BET_MANUAL" xml:space="preserve">
+    <value>Eskuzkoa</value>
+  </data>
+  <data name="ST_BS_BET_OPEN" xml:space="preserve">
+    <value>Irekia</value>
+  </data>
+  <data name="ST_BS_BET_WON" xml:space="preserve">
+    <value>Irabazita</value>
+  </data>
+  <data name="ST_GEN_DATABSE_ERROR" xml:space="preserve">
+    <value>Sistemako akatsa (-3: Datu-basea).</value>
+  </data>
+  <data name="_CaneBeParsed" xml:space="preserve">
+    <value>Ezin da partseatu</value>
+  </data>
+  <data name="_not_started" xml:space="preserve">
+    <value>Ez da hasi</value>
+  </data>
+  <data name="_started" xml:space="preserve">
+    <value>Hasi da</value>
+  </data>
+  <data name="_1p" xml:space="preserve">
+    <value>1. zatia</value>
+  </data>
+  <data name="_2p" xml:space="preserve">
+    <value>2. zatia</value>
+  </data>
+  <data name="__1p_ot" xml:space="preserve">
+    <value>Luzapeneko parte 1</value>
+  </data>
+  <data name="__2p_ot" xml:space="preserve">
+    <value>Luzapeneko parte 2</value>
+  </data>
+  <data name="_awaiting_pen" xml:space="preserve">
+    <value>Penaltiak</value>
+  </data>
+  <data name="_pen" xml:space="preserve">
+    <value>Penaltiak</value>
+  </data>
+  <data name="_3p" xml:space="preserve">
+    <value>3. zatia</value>
+  </data>
+  <data name="_4p" xml:space="preserve">
+    <value>4. zatia</value>
+  </data>
+  <data name="_5p" xml:space="preserve">
+    <value>5. zatia</value>
+  </data>
+  <data name="_1q" xml:space="preserve">
+    <value>1. laurdena</value>
+  </data>
+  <data name="_2q" xml:space="preserve">
+    <value>2. laurdena</value>
+  </data>
+  <data name="_3q" xml:space="preserve">
+    <value>3. laurdena</value>
+  </data>
+  <data name="_4q" xml:space="preserve">
+    <value>4. laurdena</value>
+  </data>
+  <data name="__1set" xml:space="preserve">
+    <value>1. seta</value>
+  </data>
+  <data name="__2set" xml:space="preserve">
+    <value>2. seta</value>
+  </data>
+  <data name="__3set" xml:space="preserve">
+    <value>3. seta</value>
+  </data>
+  <data name="__4set" xml:space="preserve">
+    <value>4. seta</value>
+  </data>
+  <data name="__5set" xml:space="preserve">
+    <value>5. seta</value>
+  </data>
+  <data name="_gset" xml:space="preserve">
+    <value>Hasi da</value>
+  </data>
+  <data name="__awaiting_ot" xml:space="preserve">
+    <value>Luzapena itxaronez</value>
+  </data>
+  <data name="_ot" xml:space="preserve">
+    <value>Luzapena</value>
+  </data>
+  <data name="_ot_ht" xml:space="preserve">
+    <value>Atsedena</value>
+  </data>
+  <data name="_after_ot" xml:space="preserve">
+    <value>Luzapenaren ondoren</value>
+  </data>
+  <data name="_ended" xml:space="preserve">
+    <value>Bukatuta</value>
+  </data>
+  <data name="_interrupted" xml:space="preserve">
+    <value>Etena</value>
+  </data>
+  <data name="_paused" xml:space="preserve">
+    <value>Etenaldian</value>
+  </data>
+  <data name="_retired" xml:space="preserve">
+    <value>Erretiratuta</value>
+  </data>
+  <data name="_postponed" xml:space="preserve">
+    <value>Atzeratuta</value>
+  </data>
+  <data name="__canceled" xml:space="preserve">
+    <value>Bertan behera geratu da</value>
+  </data>
+  <data name="_abandoned" xml:space="preserve">
+    <value>Bertan behera utzi da</value>
+  </data>
+  <data name="_delayed" xml:space="preserve">
+    <value>Atzeratua</value>
+  </data>
+  <data name="_walkover" xml:space="preserve">
+    <value>Ez aurkeztuta</value>
+  </data>
+  <data name="_na" xml:space="preserve">
+    <value>Ez-erabilgarri</value>
+  </data>
+  <data name="_nt_result" xml:space="preserve">
+    <value>Arauzko denboraren ondoren emaitza</value>
+  </data>
+  <data name="_1i" xml:space="preserve">
+    <value>Sarrera 1.</value>
+  </data>
+  <data name="_2i" xml:space="preserve">
+    <value>Sarrera 2.</value>
+  </data>
+  <data name="_si" xml:space="preserve">
+    <value>Super sarrera</value>
+  </data>
+  <data name="_rc" xml:space="preserve">
+    <value>Lasterketa-lehiaketa</value>
+  </data>
+  <data name="_ei" xml:space="preserve">
+    <value>Sarrera estra</value>
+  </data>
+  <data name="_sets" xml:space="preserve">
+    <value>Emaitza Osoa</value>
+  </data>
+  <data name="_ht_result" xml:space="preserve">
+    <value>Atsedenerako emaitza</value>
+  </data>
+  <data name="_suspended" xml:space="preserve">
+    <value>Etenda</value>
+  </data>
+  <data name="_after_pen" xml:space="preserve">
+    <value>Penaltien ondoren emaitza</value>
+  </data>
+  <data name="_1break" xml:space="preserve">
+    <value>Atseden 1.</value>
+  </data>
+  <data name="_2break" xml:space="preserve">
+    <value>Atseden 2.</value>
+  </data>
+  <data name="_3break" xml:space="preserve">
+    <value>Atseden 3.</value>
+  </data>
+  <data name="_current" xml:space="preserve">
+    <value>Gaurko emaitza</value>
+  </data>
+  <data name="_pen_result" xml:space="preserve">
+    <value>Penaltien ondoren markagailua</value>
+  </data>
+  <data name="_aggregated" xml:space="preserve">
+    <value>Emaitza osoa</value>
+  </data>
+  <data name="_tennis" xml:space="preserve">
+    <value>Markagailua</value>
+  </data>
+  <data name="_actionScore" xml:space="preserve">
+    <value>Markagailua</value>
+  </data>
+  <data name="_periodEnded" xml:space="preserve">
+    <value>Bukatutako denbora</value>
+  </data>
+  <data name="_1is" xml:space="preserve">
+    <value>Sarrera 1. - cricketa</value>
+  </data>
+  <data name="_2is" xml:space="preserve">
+    <value>2. sarrera - cricketa</value>
+  </data>
+  <data name="_3is" xml:space="preserve">
+    <value>3. sarrera - cricketa</value>
+  </data>
+  <data name="_4is" xml:space="preserve">
+    <value>4. sarrera</value>
+  </data>
+  <data name="_3i" xml:space="preserve">
+    <value>3. sarrera</value>
+  </data>
+  <data name="_4i" xml:space="preserve">
+    <value>4. sarrera - cricketa</value>
+  </data>
+  <data name="_5i" xml:space="preserve">
+    <value>5. sarrera</value>
+  </data>
+  <data name="_6i" xml:space="preserve">
+    <value>6. sarrera</value>
+  </data>
+  <data name="_7i" xml:space="preserve">
+    <value>7. sarrera</value>
+  </data>
+  <data name="_8i" xml:space="preserve">
+    <value>8. sarrera</value>
+  </data>
+  <data name="_9i" xml:space="preserve">
+    <value>9. sarrera</value>
+  </data>
+  <data name="_10i" xml:space="preserve">
+    <value>10. sarrera</value>
+  </data>
+  <data name="_11i" xml:space="preserve">
+    <value>11. sarrera</value>
+  </data>
+  <data name="_12i" xml:space="preserve">
+    <value>12. sarrera</value>
+  </data>
+  <data name="_13i" xml:space="preserve">
+    <value>13. sarrera</value>
+  </data>
+  <data name="_14i" xml:space="preserve">
+    <value>14. sarrera</value>
+  </data>
+  <data name="_5q" xml:space="preserve">
+    <value>5. laurdena</value>
+  </data>
+  <data name="_1ot" xml:space="preserve">
+    <value>1. luzapena</value>
+  </data>
+  <data name="_2ot" xml:space="preserve">
+    <value>2. luzapena</value>
+  </data>
+  <data name="periodAction" xml:space="preserve">
+    <value />
+  </data>
+  <data name="corner" xml:space="preserve">
+    <value>Kornerra</value>
+  </data>
+  <data name="goal" xml:space="preserve">
+    <value>Gola</value>
+  </data>
+  <data name="runningIn" xml:space="preserve">
+    <value>Sarrera</value>
+  </data>
+  <data name="accident" xml:space="preserve">
+    <value>Istripua</value>
+  </data>
+  <data name="yellowCard" xml:space="preserve">
+    <value>Txartel horia</value>
+  </data>
+  <data name="redCard" xml:space="preserve">
+    <value>Txartel gorria</value>
+  </data>
+  <data name="foul" xml:space="preserve">
+    <value>Falta</value>
+  </data>
+  <data name="penaltyShootout" xml:space="preserve">
+    <value>Penaltien txanda</value>
+  </data>
+  <data name="KO" xml:space="preserve">
+    <value>KO</value>
+  </data>
+  <data name="knockedDown" xml:space="preserve">
+    <value>Knocked Down</value>
+  </data>
+  <data name="yellowRedCard" xml:space="preserve">
+    <value>Txartel horiak gorriak</value>
+  </data>
+  <data name="substitution" xml:space="preserve">
+    <value>Ordezpena</value>
+  </data>
+  <data name="freetext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kickOff" xml:space="preserve">
+    <value>Hasierako ostikada</value>
+  </data>
+  <data name="freeKick" xml:space="preserve">
+    <value>Jaurtiketa</value>
+  </data>
+  <data name="penaltyAwarded" xml:space="preserve">
+    <value>Penaltia bai</value>
+  </data>
+  <data name="offside" xml:space="preserve">
+    <value>Jokoz kanpo</value>
+  </data>
+  <data name="attemptAtGoal" xml:space="preserve">
+    <value>Aukera</value>
+  </data>
+  <data name="attemptBlocked" xml:space="preserve">
+    <value>Blokeatutako aukera</value>
+  </data>
+  <data name="attemptHitsPost" xml:space="preserve">
+    <value>Zutoina jotzea</value>
+  </data>
+  <data name="possibleRedCard" xml:space="preserve">
+    <value>Txartel gorri posiblea</value>
+  </data>
+  <data name="stoppageTime" xml:space="preserve">
+    <value>Denbora  geldirik</value>
+  </data>
+  <data name="possiblePenalty" xml:space="preserve">
+    <value>Penalti posiblea</value>
+  </data>
+  <data name="noPenaltyAwarded" xml:space="preserve">
+    <value>Penaltirik ez</value>
+  </data>
+  <data name="noRedCardAwarded" xml:space="preserve">
+    <value>Txartel gorririk ez</value>
+  </data>
+  <data name="aces" xml:space="preserve">
+    <value>Ace</value>
+  </data>
+  <data name="serviceBreaks" xml:space="preserve">
+    <value>Break-a</value>
+  </data>
+  <data name="doubleFaults" xml:space="preserve">
+    <value>Falta Bikoitza</value>
+  </data>
+  <data name="pointInGame" xml:space="preserve">
+    <value>Joko-puntua</value>
+  </data>
+  <data name="pointInSet" xml:space="preserve">
+    <value>Seteko puntua</value>
+  </data>
+  <data name="pointInMatch" xml:space="preserve">
+    <value>Partidako puntua</value>
+  </data>
+  <data name="injuryBreak" xml:space="preserve">
+    <value>Lesioa</value>
+  </data>
+  <data name="matchSuspended" xml:space="preserve">
+    <value>Partida etenda</value>
+  </data>
+  <data name="weatherDelay" xml:space="preserve">
+    <value>Baldintza klimatologikoengatiko atzerapena</value>
+  </data>
+  <data name="tieBreakWon" xml:space="preserve">
+    <value>Irabazitako tie-break-a</value>
+  </data>
+  <data name="matchWon" xml:space="preserve">
+    <value>Partida irabazita</value>
+  </data>
+  <data name="Beginning" xml:space="preserve">
+    <value>{0} (e)an hasi da</value>
+  </data>
+  <data name="LanguageCode" xml:space="preserve">
+    <value>eu</value>
+  </data>
+  <data name="_b1qt" xml:space="preserve">
+    <value>1. laurdena</value>
+  </data>
+  <data name="_b2qt" xml:space="preserve">
+    <value>2. laurdena</value>
+  </data>
+  <data name="_b3qt" xml:space="preserve">
+    <value>3. laurdena</value>
+  </data>
+  <data name="_b4qt" xml:space="preserve">
+    <value>4. laurdena</value>
+  </data>
+  <data name="_b5qt" xml:space="preserve">
+    <value>1.luzapena</value>
+  </data>
+  <data name="_b6qt" xml:space="preserve">
+    <value>2.luzapena</value>
+  </data>
+  <data name="_b7qt" xml:space="preserve">
+    <value>3.luzapena</value>
+  </data>
+  <data name="_b8qt" xml:space="preserve">
+    <value>4.luzapena</value>
+  </data>
+  <data name="AddWonTicketOK" xml:space="preserve">
+    <value>Tiketaren saria ({0} €) kitapenera gehitu da</value>
+  </data>
+  <data name="AddWonTicketSiebelError" xml:space="preserve">
+    <value>Arazoa tiketa bere kitapenera gehitzerakoan egon da, euskarriarekin harremanetan jar dadin</value>
+  </data>
+  <data name="AddWonTicketTicketLocked" xml:space="preserve">
+    <value>Sartutako tiketa blokeatuta dago</value>
+  </data>
+  <data name="AddWonTicketTicketNotFound" xml:space="preserve">
+    <value>Sartutako tiketa ez dago sisteman</value>
+  </data>
+  <data name="AddWonTicketTicketNotPaper" xml:space="preserve">
+    <value>Sartutako tiketa ez da sortu Codere-ko lokal batean</value>
+  </data>
+  <data name="AddWonTicketTicketNotWon" xml:space="preserve">
+    <value>Sartutako tiketa ez da saritu</value>
+  </data>
+  <data name="AddWonTicketTicketRemainingZero" xml:space="preserve">
+    <value>Jada sartutako tiketa ordaindu da</value>
+  </data>
+  <data name="AddWonTticketRetrieveError" xml:space="preserve">
+    <value>Orain ezin dugu tiketa baliozkotu, beranduago saia zaitez</value>
+  </data>
+  <data name="greyhounds_racing" xml:space="preserve">
+    <value>Erbi-txakur-lasterketak</value>
+  </data>
+  <data name="horses_racing" xml:space="preserve">
+    <value>Zaldi-lasterketak</value>
+  </data>
+  <data name="ST_BS_BET_PAYBACK" xml:space="preserve">
+    <value>Kobratuta</value>
+  </data>
+  <data name="error0" xml:space="preserve">
+    <value>Akatsik ez dago</value>
+  </data>
+  <data name="error002" xml:space="preserve">
+    <value>Ez du balio-zerrenda aurkitzen.</value>
+  </data>
+  <data name="error100" xml:space="preserve">
+    <value>Zure identitatea egiaztatzea ez da posiblea izan. Mesedez datuak zuzenak izan daitezela ikuskatzen du eta berriro saia zaitez</value>
+  </data>
+  <data name="error1001" xml:space="preserve">
+    <value>Erabiltzaile okerreko izena</value>
+  </data>
+  <data name="error101" xml:space="preserve">
+    <value>Zure kontua blokeatuta dago. Mesedez gurekin harremanetan jartzen da asistentzia lortzeko.</value>
+  </data>
+  <data name="error103" xml:space="preserve">
+    <value>Erregistroa ezin izan da osatu. Mesedez gurekin harremanetan jartzen da asistentzia lortzeko.</value>
+  </data>
+  <data name="error104" xml:space="preserve">
+    <value>Jada erabiltzaile-izena sisteman aurkitzen da, berri bat sartzen du.</value>
+  </data>
+  <data name="error105" xml:space="preserve">
+    <value>Zure kontua blokeatuta dago. Mesedez gurekin harremanetan jartzen da asistentzia lortzeko.</value>
+  </data>
+  <data name="error106" xml:space="preserve">
+    <value>Ez da aurkitu</value>
+  </data>
+  <data name="error107" xml:space="preserve">
+    <value>Zure erabiltzailea edo pasahitza dira okerrak. Zure pasahitza ahaztu duzu? Berreskura ezazu $recovery$</value>
+  </data>
+  <data name="error108" xml:space="preserve">
+    <value>Zure pasahitza ezin izan da aldatu. Mesedez, berriro saia zaitez.</value>
+  </data>
+  <data name="error109" xml:space="preserve">
+    <value>Segurtasun-kodeak ez datoz bat.</value>
+  </data>
+  <data name="error110" xml:space="preserve">
+    <value>Nahitaezko alorrak bete behar dituzu.</value>
+  </data>
+  <data name="error111" xml:space="preserve">
+    <value>Hutsa zerbitzariarengan gertatu da, eragozpenak barkatzen ditu. Minutu batzuetan berriro ere saiatzen da.</value>
+  </data>
+  <data name="error112" xml:space="preserve">
+    <value>Ezin duzu saiorik hasi orain. Mesedez, orrialdea freskatzen du eta berriro saia zaitez.</value>
+  </data>
+  <data name="error113" xml:space="preserve">
+    <value>Jada sartu zenuen telefono-zenbakia dago. Jada kontua badaukazu, zure pasahitza berreskura dezakezu $recovery$ click-a eginez</value>
+  </data>
+  <data name="error114" xml:space="preserve">
+    <value>Jada sartu zenuen NIF/NIE-a sisteman dago. Jada kontua badaukazu, zure pasahitza berreskura dezakezu $recovery$ click-a eginez</value>
+  </data>
+  <data name="error115" xml:space="preserve">
+    <value>Jada sartu zenuen posta elektronikoa sisteman dago. Jada kontua badaukazu, zure pasahitza berreskura dezakezu $recovery$ click-a eginez</value>
+  </data>
+  <data name="error116" xml:space="preserve">
+    <value>Erregistratu ahal izateko adinduna izatea beharrezkoa da</value>
+  </data>
+  <data name="error117" xml:space="preserve">
+    <value>Hutsa erregistroan gertatu da. Mesedez, orrialdea freskatzen du eta berriro saia zaitez</value>
+  </data>
+  <data name="error119" xml:space="preserve">
+    <value>Barneko akatsa gertatu da. Mesedez, orrialdea freskatzen du eta berriro saia zaitez.</value>
+  </data>
+  <data name="error120" xml:space="preserve">
+    <value>Aktibatze-kodea okerra da. Mesedez, ziurta ezazu bat datorrela zure erregistroa osatzeko jaso duzun kodearekin.</value>
+  </data>
+  <data name="error121" xml:space="preserve">
+    <value>Hark transakzio hau egiteko zuk egiaztatze dokumentala osatzea beharrezkoa da. $VerificacionD$ informazio gehiago lor dezakezu</value>
+  </data>
+  <data name="error122" xml:space="preserve">
+    <value>Konfiantza error.Por gertatu da, orrialdea freskatzen du eta berriro saia zaitez.</value>
+  </data>
+  <data name="error123" xml:space="preserve">
+    <value>Barneko akatsa gertatu da. Mesedez, orrialdea freskatzen du eta prozesuari berriro irakasten dio.</value>
+  </data>
+  <data name="error124" xml:space="preserve">
+    <value>Pasahitzak ez datoz bat.</value>
+  </data>
+  <data name="error125" xml:space="preserve">
+    <value>Barneko akatsa gertatu da. Mesedez, orrialdea freskatzen du eta berriro saia zaitez.</value>
+  </data>
+  <data name="error128" xml:space="preserve">
+    <value>Mugikorreko eta email-eko zelaiak betetzea beharrezkoa da.</value>
+  </data>
+  <data name="error129" xml:space="preserve">
+    <value>Email-a edo jada esandako  zergatia daude. Jada kontua badaukazu, zure pasahitza berreskura dezakezu $recovery$ click-a eginez</value>
+  </data>
+  <data name="error131" xml:space="preserve">
+    <value>Barneko akatsa. Mesedez, berriro saia zaitez.</value>
+  </data>
+  <data name="error132" xml:space="preserve">
+    <value>Barneko akatsa. Mesedez, berriro saia zaitez.</value>
+  </data>
+  <data name="error140" xml:space="preserve">
+    <value>Barneko akatsa. Mesedez, berriro saia zaitez.</value>
+  </data>
+  <data name="error141" xml:space="preserve">
+    <value>Esandako bonu kodea ez dago edo jarduerarik gabeko dago.</value>
+  </data>
+  <data name="error142" xml:space="preserve">
+    <value>Pasahitz baliogabea. Lau digitu izan behar ditu gutxienez.</value>
+  </data>
+  <data name="error143" xml:space="preserve">
+    <value>Zure kontua sarbide-saio okerrengatik blokeatu da. Ez duzu zure pasahitza gogoratzen? Berreskura ezazu $recovery$</value>
+  </data>
+  <data name="error144" xml:space="preserve">
+    <value>Pasahitz baliogabea. Zenbakia izan behar du gutxienez.</value>
+  </data>
+  <data name="error145" xml:space="preserve">
+    <value>Pasahitz baliogabea. Letra izan behar du gutxienez.</value>
+  </data>
+  <data name="error146" xml:space="preserve">
+    <value>Pasahitz baliogabea. Ezin du zure izena eduki.</value>
+  </data>
+  <data name="error147" xml:space="preserve">
+    <value>Pasahitz baliogabea. Ezin du zure deitura eduki.</value>
+  </data>
+  <data name="error148" xml:space="preserve">
+    <value>Pasahitz baliogabea. Ezin du zure deitura eduki.</value>
+  </data>
+  <data name="error149" xml:space="preserve">
+    <value>Pasahitz baliogabea. Ezin du zure erabiltzaile-izena eduki.</value>
+  </data>
+  <data name="error150" xml:space="preserve">
+    <value>Pasahitz baliogabea. Ezin du zure jaioteguna eduki.</value>
+  </data>
+  <data name="error151" xml:space="preserve">
+    <value>Aukeratutako zenbatekoak baimendutako muga maximoa gainditzen du. . &lt;br /&gt; Gordailu-mugak handitzea desiratzen baduzu, email bat apuestas@codere.com-i bidaliz eska dezakezu</value>
+  </data>
+  <data name="error160" xml:space="preserve">
+    <value>Gaur egun duzu txartelaren bitartez uzteko aukera desprestatuta. Informazio gehiago lortzeko, gurekin harremanetan jartzen da apuestas@codere.com</value>
+  </data>
+  <data name="error161" xml:space="preserve">
+    <value>Gaur egun duzu Codere lokalean kobratzeko aukera desprestatuta. Informazio gehiago lortzeko, gurekin harremanetan jartzen da apuestas@codere.com</value>
+  </data>
+  <data name="error701" xml:space="preserve">
+    <value>Akatsa identitatea egiaztatzen saiatzerakoan. Mesedez, berriko beranduago saia zaitez</value>
+  </data>
+  <data name="error702" xml:space="preserve">
+    <value>Datuetako akatsa.</value>
+  </data>
+  <data name="error703" xml:space="preserve">
+    <value>Konpainiaren debekatutakotako zerrendako erabiltzailea</value>
+  </data>
+  <data name="error704" xml:space="preserve">
+    <value>Erabiltzailea debekatutako-zerrendan aurkitzen da. Mesedez gurekin harremanetan jartzen da asistentzia lortzeko.</value>
+  </data>
+  <data name="error705" xml:space="preserve">
+    <value>Erabiltzailea autokanpo utzitako-zerrendan aurkitzen da. Mesedez gurekin harremanetan jartzen da asistentzia lortzeko.</value>
+  </data>
+  <data name="error706" xml:space="preserve">
+    <value>Ezeztatutako kontua</value>
+  </data>
+  <data name="error707" xml:space="preserve">
+    <value>Etendako kontua</value>
+  </data>
+  <data name="error708" xml:space="preserve">
+    <value>Zintzilikatutako kontratua</value>
+  </data>
+  <data name="AddWonTticketZoneError" xml:space="preserve">
+    <value>Soilik Madrilgo Erkidegoan sortutako tiketekiko funtzio librea.</value>
+  </data>
+  <data name="Error2002" xml:space="preserve">
+    <value>Ups... ez daukazu kantitate hau zure kontuko balantzean.</value>
+  </data>
+  <data name="_leg1" xml:space="preserve">
+    <value>1. Leg</value>
+  </data>
+  <data name="_leg2" xml:space="preserve">
+    <value>2. Leg</value>
+  </data>
+  <data name="_leg3" xml:space="preserve">
+    <value>3. Leg</value>
+  </data>
+  <data name="_leg4" xml:space="preserve">
+    <value>4. Leg</value>
+  </data>
+  <data name="_leg5" xml:space="preserve">
+    <value>5. Leg</value>
+  </data>
+  <data name="_1ib" xml:space="preserve">
+    <value>Baja 1.</value>
+  </data>
+  <data name="_1it" xml:space="preserve">
+    <value>Alta 1.</value>
+  </data>
+  <data name="_2ib" xml:space="preserve">
+    <value>2ª  Baja</value>
+  </data>
+  <data name="_2it" xml:space="preserve">
+    <value>Alta 2.</value>
+  </data>
+  <data name="_3ib" xml:space="preserve">
+    <value>3ª Baja</value>
+  </data>
+  <data name="_3it" xml:space="preserve">
+    <value>Alta 3.</value>
+  </data>
+  <data name="_bt1b1" xml:space="preserve">
+    <value>Atsedena 1.</value>
+  </data>
+  <data name="_bt2b1" xml:space="preserve">
+    <value>Final 1.</value>
+  </data>
+  <data name="_bt2b2" xml:space="preserve">
+    <value>Atsedena 2.</value>
+  </data>
+  <data name="_bt3b2" xml:space="preserve">
+    <value>Final 2.</value>
+  </data>
+  <data name="_bt3b3" xml:space="preserve">
+    <value>Atsedena 3.</value>
+  </data>
+  <data name="_10r" xml:space="preserve">
+    <value>Round 10.</value>
+  </data>
+  <data name="_11r" xml:space="preserve">
+    <value>Round 11.</value>
+  </data>
+  <data name="_12r" xml:space="preserve">
+    <value>Round 12.</value>
+  </data>
+  <data name="_1r" xml:space="preserve">
+    <value>Round 1.</value>
+  </data>
+  <data name="_2r" xml:space="preserve">
+    <value>Round 2.</value>
+  </data>
+  <data name="_3ot" xml:space="preserve">
+    <value>3. luzapena</value>
+  </data>
+  <data name="_3r" xml:space="preserve">
+    <value>Round 3.</value>
+  </data>
+  <data name="_4ib" xml:space="preserve">
+    <value>Baja 4.</value>
+  </data>
+  <data name="_4it" xml:space="preserve">
+    <value>Alta 4.</value>
+  </data>
+  <data name="_4ot" xml:space="preserve">
+    <value>4. luzapena</value>
+  </data>
+  <data name="_4r" xml:space="preserve">
+    <value>Round 4.</value>
+  </data>
+  <data name="_5ib" xml:space="preserve">
+    <value>Baja 5.</value>
+  </data>
+  <data name="_5it" xml:space="preserve">
+    <value>Alta 5.</value>
+  </data>
+  <data name="_5ot" xml:space="preserve">
+    <value>5. luzapena</value>
+  </data>
+  <data name="_5r" xml:space="preserve">
+    <value>Round 5.</value>
+  </data>
+  <data name="_6ib" xml:space="preserve">
+    <value>Baja 6.</value>
+  </data>
+  <data name="_6it" xml:space="preserve">
+    <value>Alta 6.</value>
+  </data>
+  <data name="_6ot" xml:space="preserve">
+    <value>6. luzapena</value>
+  </data>
+  <data name="_6r" xml:space="preserve">
+    <value>Round 6.</value>
+  </data>
+  <data name="_6set" xml:space="preserve">
+    <value>6. seta</value>
+  </data>
+  <data name="_7ib" xml:space="preserve">
+    <value>Baja 7.</value>
+  </data>
+  <data name="_7it" xml:space="preserve">
+    <value>Alta 7.</value>
+  </data>
+  <data name="_7r" xml:space="preserve">
+    <value>Round 7.</value>
+  </data>
+  <data name="_7set" xml:space="preserve">
+    <value>7. seta</value>
+  </data>
+  <data name="_8ib" xml:space="preserve">
+    <value>Baja 8.</value>
+  </data>
+  <data name="_8it" xml:space="preserve">
+    <value>Alta 8.</value>
+  </data>
+  <data name="_8r" xml:space="preserve">
+    <value>Round 8.</value>
+  </data>
+  <data name="_9ib" xml:space="preserve">
+    <value>Baja 9.</value>
+  </data>
+  <data name="_9it" xml:space="preserve">
+    <value>Alta 9.</value>
+  </data>
+  <data name="_9r" xml:space="preserve">
+    <value>Round 9.</value>
+  </data>
+  <data name="_bt4b3" xml:space="preserve">
+    <value>Final 3.</value>
+  </data>
+  <data name="_bt4b4" xml:space="preserve">
+    <value>Atsedena 4.</value>
+  </data>
+  <data name="_bt5b4" xml:space="preserve">
+    <value>Final 4.</value>
+  </data>
+  <data name="_bt5b5" xml:space="preserve">
+    <value>Atsedena 5.</value>
+  </data>
+  <data name="_bt6b5" xml:space="preserve">
+    <value>Final 5.</value>
+  </data>
+  <data name="_bt6b6" xml:space="preserve">
+    <value>Atsedena 6.</value>
+  </data>
+  <data name="_bt7b6" xml:space="preserve">
+    <value>Final 6.</value>
+  </data>
+  <data name="_bt7b7" xml:space="preserve">
+    <value>Atsedena 7.</value>
+  </data>
+  <data name="_bt8b7" xml:space="preserve">
+    <value>Final 7.</value>
+  </data>
+  <data name="_bt8b8" xml:space="preserve">
+    <value>Atsedena 8.</value>
+  </data>
+  <data name="_bt9b8" xml:space="preserve">
+    <value>Final 8.</value>
+  </data>
+  <data name="_bt9b9" xml:space="preserve">
+    <value>Atsedena 9.</value>
+  </data>
+  <data name="_bteib9" xml:space="preserve">
+    <value>Final 9.</value>
+  </data>
+  <data name="_bteibei" xml:space="preserve">
+    <value>Atseden sarrera estra</value>
+  </data>
+  <data name="_eib" xml:space="preserve">
+    <value>Sartutako baja estra</value>
+  </data>
+  <data name="_eit" xml:space="preserve">
+    <value>Sartutako alta estra</value>
+  </data>
+  <data name="_frame1" xml:space="preserve">
+    <value>Frame 1.</value>
+  </data>
+  <data name="_frame10" xml:space="preserve">
+    <value>Frame 10.</value>
+  </data>
+  <data name="_frame11" xml:space="preserve">
+    <value>Frame 11.</value>
+  </data>
+  <data name="_frame12" xml:space="preserve">
+    <value>Frame 12.</value>
+  </data>
+  <data name="_frame13" xml:space="preserve">
+    <value>Frame 13.</value>
+  </data>
+  <data name="_frame14" xml:space="preserve">
+    <value>Frame 14.</value>
+  </data>
+  <data name="_frame15" xml:space="preserve">
+    <value>Frame 15.</value>
+  </data>
+  <data name="_frame16" xml:space="preserve">
+    <value>Frame 16.</value>
+  </data>
+  <data name="_frame17" xml:space="preserve">
+    <value>Frame 17.</value>
+  </data>
+  <data name="_frame18" xml:space="preserve">
+    <value>Frame 18.</value>
+  </data>
+  <data name="_frame19" xml:space="preserve">
+    <value>Frame 19.</value>
+  </data>
+  <data name="_frame2" xml:space="preserve">
+    <value>Frame 2.</value>
+  </data>
+  <data name="_frame20" xml:space="preserve">
+    <value>Frame 20.</value>
+  </data>
+  <data name="_frame21" xml:space="preserve">
+    <value>Frame 21.</value>
+  </data>
+  <data name="_frame22" xml:space="preserve">
+    <value>Frame 22.</value>
+  </data>
+  <data name="_frame23" xml:space="preserve">
+    <value>Frame 23.</value>
+  </data>
+  <data name="_frame24" xml:space="preserve">
+    <value>Frame 24.</value>
+  </data>
+  <data name="_frame25" xml:space="preserve">
+    <value>Frame 25.</value>
+  </data>
+  <data name="_frame26" xml:space="preserve">
+    <value>Frame 26.</value>
+  </data>
+  <data name="_frame27" xml:space="preserve">
+    <value>Frame 27.</value>
+  </data>
+  <data name="_frame28" xml:space="preserve">
+    <value>Frame 28.</value>
+  </data>
+  <data name="_frame29" xml:space="preserve">
+    <value>Frame 29.</value>
+  </data>
+  <data name="_frame3" xml:space="preserve">
+    <value>Frame 3.</value>
+  </data>
+  <data name="_frame30" xml:space="preserve">
+    <value>Frame 30.</value>
+  </data>
+  <data name="_frame31" xml:space="preserve">
+    <value>Frame 31.</value>
+  </data>
+  <data name="_frame32" xml:space="preserve">
+    <value>Frame 32.</value>
+  </data>
+  <data name="_frame33" xml:space="preserve">
+    <value>Frame 33.</value>
+  </data>
+  <data name="_frame34" xml:space="preserve">
+    <value>Frame 34.</value>
+  </data>
+  <data name="_frame35" xml:space="preserve">
+    <value>Frame 35.</value>
+  </data>
+  <data name="_frame4" xml:space="preserve">
+    <value>Frame 4.</value>
+  </data>
+  <data name="_frame5" xml:space="preserve">
+    <value>Frame 5.</value>
+  </data>
+  <data name="_frame6" xml:space="preserve">
+    <value>Frame 6.</value>
+  </data>
+  <data name="_frame7" xml:space="preserve">
+    <value>Frame 7.</value>
+  </data>
+  <data name="_frame8" xml:space="preserve">
+    <value>Frame 8.</value>
+  </data>
+  <data name="_frame9" xml:space="preserve">
+    <value>Frame 9.</value>
+  </data>
+  <data name="_leg10" xml:space="preserve">
+    <value>10. Leg</value>
+  </data>
+  <data name="_leg11" xml:space="preserve">
+    <value>11. Leg</value>
+  </data>
+  <data name="_leg12" xml:space="preserve">
+    <value>12. Leg</value>
+  </data>
+  <data name="_leg13" xml:space="preserve">
+    <value>13. Leg</value>
+  </data>
+  <data name="_leg14" xml:space="preserve">
+    <value>14. Leg</value>
+  </data>
+  <data name="_leg15" xml:space="preserve">
+    <value>15. Leg</value>
+  </data>
+  <data name="_leg16" xml:space="preserve">
+    <value>16. Leg</value>
+  </data>
+  <data name="_leg17" xml:space="preserve">
+    <value>17. Leg</value>
+  </data>
+  <data name="_leg18" xml:space="preserve">
+    <value>18. Leg</value>
+  </data>
+  <data name="_leg19" xml:space="preserve">
+    <value>19. Leg</value>
+  </data>
+  <data name="_leg20" xml:space="preserve">
+    <value>20. Leg</value>
+  </data>
+  <data name="_leg6" xml:space="preserve">
+    <value>6. Leg</value>
+  </data>
+  <data name="_leg7" xml:space="preserve">
+    <value>7. Leg</value>
+  </data>
+  <data name="_leg8" xml:space="preserve">
+    <value>8. Leg</value>
+  </data>
+  <data name="_leg9" xml:space="preserve">
+    <value>9. Leg</value>
+  </data>
+</root>

@@ -1,5 +1,4 @@
-﻿using Codere.SBGOnline.PbsNodesToTreeNodes.Model;
-using Codere.ThirdParty.BGT.ServiceReferences.SportsBookService.BGT_SportsBookService.Objects.TransferObjects;
+﻿using Codere.ThirdParty.BGT.ServiceReferences.SportsBookService.BGT_SportsBookService.Objects.TransferObjects;
 using System;
 using System.Runtime.Serialization;
 

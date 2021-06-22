@@ -1,0 +1,1065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ST_BS_BET_CANCELLED" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="ST_BS_BET_DECLINED" xml:space="preserve">
+    <value>Not accepted</value>
+  </data>
+  <data name="ST_BS_BET_LOST" xml:space="preserve">
+    <value>Lost</value>
+  </data>
+  <data name="ST_BS_BET_MANUAL" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="ST_BS_BET_OPEN" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="ST_BS_BET_WON" xml:space="preserve">
+    <value>Won</value>
+  </data>
+  <data name="ST_GEN_DATABSE_ERROR" xml:space="preserve">
+    <value>System error (-3: Database).</value>
+  </data>
+  <data name="_CaneBeParsed" xml:space="preserve">
+    <value>Can't be parsed</value>
+  </data>
+  <data name="_not_started" xml:space="preserve">
+    <value>Not started</value>
+  </data>
+  <data name="_started" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="_1p" xml:space="preserve">
+    <value>First period</value>
+  </data>
+  <data name="_2p" xml:space="preserve">
+    <value>Second period</value>
+  </data>
+  <data name="__1p_ot" xml:space="preserve">
+    <value>First period overtime</value>
+  </data>
+  <data name="__2p_ot" xml:space="preserve">
+    <value>Second period overtime</value>
+  </data>
+  <data name="_awaiting_pen" xml:space="preserve">
+    <value>Awaiting penalty</value>
+  </data>
+  <data name="_pen" xml:space="preserve">
+    <value>Penalty</value>
+  </data>
+  <data name="_3p" xml:space="preserve">
+    <value>Third period</value>
+  </data>
+  <data name="_4p" xml:space="preserve">
+    <value>Fourth period</value>
+  </data>
+  <data name="_5p" xml:space="preserve">
+    <value>Fifth period</value>
+  </data>
+  <data name="_1q" xml:space="preserve">
+    <value>First quarter</value>
+  </data>
+  <data name="_2q" xml:space="preserve">
+    <value>Second quarter</value>
+  </data>
+  <data name="_3q" xml:space="preserve">
+    <value>Third quarter</value>
+  </data>
+  <data name="_4q" xml:space="preserve">
+    <value>Fourth quarter</value>
+  </data>
+  <data name="__1set" xml:space="preserve">
+    <value>First set</value>
+  </data>
+  <data name="__2set" xml:space="preserve">
+    <value>Second set</value>
+  </data>
+  <data name="__3set" xml:space="preserve">
+    <value>Third set</value>
+  </data>
+  <data name="__4set" xml:space="preserve">
+    <value>Fourth set</value>
+  </data>
+  <data name="__5set" xml:space="preserve">
+    <value>Fifth set</value>
+  </data>
+  <data name="_gset" xml:space="preserve">
+    <value>Game set</value>
+  </data>
+  <data name="__awaiting_ot" xml:space="preserve">
+    <value>Awaiting overtime</value>
+  </data>
+  <data name="_ot" xml:space="preserve">
+    <value>Overtime</value>
+  </data>
+  <data name="_ot_ht" xml:space="preserve">
+    <value>Overtime halftime</value>
+  </data>
+  <data name="_after_ot" xml:space="preserve">
+    <value>After overtime</value>
+  </data>
+  <data name="_ended" xml:space="preserve">
+    <value>Ended</value>
+  </data>
+  <data name="_interrupted" xml:space="preserve">
+    <value>Interrupted</value>
+  </data>
+  <data name="_paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="_retired" xml:space="preserve">
+    <value>Retired</value>
+  </data>
+  <data name="_postponed" xml:space="preserve">
+    <value>Postponed</value>
+  </data>
+  <data name="__canceled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="_abandoned" xml:space="preserve">
+    <value>Abandoned</value>
+  </data>
+  <data name="_delayed" xml:space="preserve">
+    <value>Delayed</value>
+  </data>
+  <data name="_walkover" xml:space="preserve">
+    <value>Walkover</value>
+  </data>
+  <data name="_na" xml:space="preserve">
+    <value>Not available</value>
+  </data>
+  <data name="_nt_result" xml:space="preserve">
+    <value>Normal time result</value>
+  </data>
+  <data name="_1i" xml:space="preserve">
+    <value>First Inning</value>
+  </data>
+  <data name="_2i" xml:space="preserve">
+    <value>Second Inning</value>
+  </data>
+  <data name="_si" xml:space="preserve">
+    <value>Super inning</value>
+  </data>
+  <data name="_rc" xml:space="preserve">
+    <value>Run contest</value>
+  </data>
+  <data name="_ei" xml:space="preserve">
+    <value>Extra ining</value>
+  </data>
+  <data name="_sets" xml:space="preserve">
+    <value>Score after sets (global match score)</value>
+  </data>
+  <data name="_ht_result" xml:space="preserve">
+    <value>Halftime result</value>
+  </data>
+  <data name="_suspended" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="_after_pen" xml:space="preserve">
+    <value>Result after penalties</value>
+  </data>
+  <data name="_1break" xml:space="preserve">
+    <value>First break</value>
+  </data>
+  <data name="_2break" xml:space="preserve">
+    <value>Second break</value>
+  </data>
+  <data name="_3break" xml:space="preserve">
+    <value>Third break</value>
+  </data>
+  <data name="_current" xml:space="preserve">
+    <value>Current score</value>
+  </data>
+  <data name="_pen_result" xml:space="preserve">
+    <value>Score after penalties</value>
+  </data>
+  <data name="_aggregated" xml:space="preserve">
+    <value>Aggregated score, for the second match in a two-legged tie</value>
+  </data>
+  <data name="_tennis" xml:space="preserve">
+    <value>Tennis score type - GameScore like "30:15"</value>
+  </data>
+  <data name="_actionScore" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_periodEnded" xml:space="preserve">
+    <value>Period ended</value>
+  </data>
+  <data name="_1is" xml:space="preserve">
+    <value>1st Innings - Cricket</value>
+  </data>
+  <data name="_2is" xml:space="preserve">
+    <value>2nd Innings - Cricket</value>
+  </data>
+  <data name="_3is" xml:space="preserve">
+    <value>3rd Innings - Cricket</value>
+  </data>
+  <data name="_4is" xml:space="preserve">
+    <value>4th Innings - Cricket</value>
+  </data>
+  <data name="_3i" xml:space="preserve">
+    <value>Third Inning</value>
+  </data>
+  <data name="_4i" xml:space="preserve">
+    <value>Fourth Inning</value>
+  </data>
+  <data name="_5i" xml:space="preserve">
+    <value>Fifth Inning</value>
+  </data>
+  <data name="_6i" xml:space="preserve">
+    <value>Sixth Inning</value>
+  </data>
+  <data name="_7i" xml:space="preserve">
+    <value>Seventh Inning</value>
+  </data>
+  <data name="_8i" xml:space="preserve">
+    <value>Eighth Inning</value>
+  </data>
+  <data name="_9i" xml:space="preserve">
+    <value>Nineth Inning</value>
+  </data>
+  <data name="_10i" xml:space="preserve">
+    <value>Tenth Inning</value>
+  </data>
+  <data name="_11i" xml:space="preserve">
+    <value>Eleventh Inning</value>
+  </data>
+  <data name="_12i" xml:space="preserve">
+    <value>Twelfth Inning</value>
+  </data>
+  <data name="_13i" xml:space="preserve">
+    <value>Thirteenth Inning</value>
+  </data>
+  <data name="_14i" xml:space="preserve">
+    <value>Fourteenth Inning</value>
+  </data>
+  <data name="_5q" xml:space="preserve">
+    <value>Fifth Quarter</value>
+  </data>
+  <data name="_1ot" xml:space="preserve">
+    <value>First Overtime</value>
+  </data>
+  <data name="_2ot" xml:space="preserve">
+    <value>Second Overtime</value>
+  </data>
+  <data name="periodAction" xml:space="preserve">
+    <value />
+  </data>
+  <data name="corner" xml:space="preserve">
+    <value>Corner</value>
+  </data>
+  <data name="goal" xml:space="preserve">
+    <value>Goal</value>
+  </data>
+  <data name="runningIn" xml:space="preserve">
+    <value>Entrance</value>
+  </data>
+  <data name="accident" xml:space="preserve">
+    <value>Accident</value>
+  </data>
+  <data name="yellowCard" xml:space="preserve">
+    <value>Yellow card</value>
+  </data>
+  <data name="redCard" xml:space="preserve">
+    <value>Red card</value>
+  </data>
+  <data name="foul" xml:space="preserve">
+    <value>Lack</value>
+  </data>
+  <data name="penaltyShootout" xml:space="preserve">
+    <value>Penalty</value>
+  </data>
+  <data name="KO" xml:space="preserve">
+    <value>KO</value>
+  </data>
+  <data name="knockedDown" xml:space="preserve">
+    <value>Knocked Down</value>
+  </data>
+  <data name="yellowRedCard" xml:space="preserve">
+    <value>Yellow Red Card</value>
+  </data>
+  <data name="substitution" xml:space="preserve">
+    <value>Substitution</value>
+  </data>
+  <data name="freetext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kickOff" xml:space="preserve">
+    <value>Kick off</value>
+  </data>
+  <data name="freeKick" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="penaltyAwarded" xml:space="preserve">
+    <value>Penalty awarded</value>
+  </data>
+  <data name="offside" xml:space="preserve">
+    <value>Offside</value>
+  </data>
+  <data name="attemptAtGoal" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="attemptBlocked" xml:space="preserve">
+    <value>Locked goal</value>
+  </data>
+  <data name="attemptHitsPost" xml:space="preserve">
+    <value>Hits the post</value>
+  </data>
+  <data name="possibleRedCard" xml:space="preserve">
+    <value>Possible red card</value>
+  </data>
+  <data name="stoppageTime" xml:space="preserve">
+    <value>Time Delay</value>
+  </data>
+  <data name="possiblePenalty" xml:space="preserve">
+    <value>Possible penalty</value>
+  </data>
+  <data name="noPenaltyAwarded" xml:space="preserve">
+    <value>Penalty not given</value>
+  </data>
+  <data name="noRedCardAwarded" xml:space="preserve">
+    <value>Not given a red card</value>
+  </data>
+  <data name="aces" xml:space="preserve">
+    <value>Ace</value>
+  </data>
+  <data name="serviceBreaks" xml:space="preserve">
+    <value>Break</value>
+  </data>
+  <data name="doubleFaults" xml:space="preserve">
+    <value>Double Fault</value>
+  </data>
+  <data name="pointInGame" xml:space="preserve">
+    <value>Game point</value>
+  </data>
+  <data name="pointInSet" xml:space="preserve">
+    <value>Set point</value>
+  </data>
+  <data name="pointInMatch" xml:space="preserve">
+    <value>Match Point</value>
+  </data>
+  <data name="injuryBreak" xml:space="preserve">
+    <value>Injury</value>
+  </data>
+  <data name="matchSuspended" xml:space="preserve">
+    <value>Suspended match</value>
+  </data>
+  <data name="weatherDelay" xml:space="preserve">
+    <value>Delayed by weather</value>
+  </data>
+  <data name="tieBreakWon" xml:space="preserve">
+    <value>Tie Break cattle</value>
+  </data>
+  <data name="matchWon" xml:space="preserve">
+    <value>Won match</value>
+  </data>
+  <data name="Beginning" xml:space="preserve">
+    <value>It started at {0}</value>
+  </data>
+  <data name="LanguageCode" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="greyhounds_racing" xml:space="preserve">
+    <value>Greyhounds</value>
+  </data>
+  <data name="horses_racing" xml:space="preserve">
+    <value>Horse racing</value>
+  </data>
+  <data name="_b1qt" xml:space="preserve">
+    <value>Quarter 1 (SPIN-Basketball - Special Logic on Terminal)</value>
+  </data>
+  <data name="_b2qt" xml:space="preserve">
+    <value>Quarter 2 (SPIN-Basketball - Special Logic on Terminal)</value>
+  </data>
+  <data name="_b3qt" xml:space="preserve">
+    <value>Quarter 3 (SPIN-Basketball - Special Logic on Terminal)</value>
+  </data>
+  <data name="_b4qt" xml:space="preserve">
+    <value>Quarter 4 (SPIN-Basketball - Special Logic on Terminal)</value>
+  </data>
+  <data name="_b5qt" xml:space="preserve">
+    <value>Overtime 1 (SPIN-Basketball - Special Logic on Terminal)</value>
+  </data>
+  <data name="_b6qt" xml:space="preserve">
+    <value>Overtime 2 (SPIN-Basketball - Special Logic on Terminal)</value>
+  </data>
+  <data name="_b7qt" xml:space="preserve">
+    <value>Overtime 3 (SPIN-Basketball - Special Logic on Terminal)</value>
+  </data>
+  <data name="_b8qt" xml:space="preserve">
+    <value>Overtime 4 (SPIN-Basketball - Special Logic on Terminal)</value>
+  </data>
+  <data name="AddWonTicketOK" xml:space="preserve">
+    <value>The award ticket ({0} €) was added to the balance</value>
+  </data>
+  <data name="AddWonTicketSiebelError" xml:space="preserve">
+    <value>There has been a problem by incorporating the ticket to your sald, contact support</value>
+  </data>
+  <data name="AddWonTicketTicketLocked" xml:space="preserve">
+    <value>The ticket entered is locked</value>
+  </data>
+  <data name="AddWonTicketTicketNotFound" xml:space="preserve">
+    <value>The ticket entered does not exist in the system</value>
+  </data>
+  <data name="AddWonTicketTicketNotPaper" xml:space="preserve">
+    <value>The ticket entered was not generated at a local Codere</value>
+  </data>
+  <data name="AddWonTicketTicketNotWon" xml:space="preserve">
+    <value>The ticket has not been awarded introduced</value>
+  </data>
+  <data name="AddWonTicketTicketRemainingZero" xml:space="preserve">
+    <value>he ticket entered has already been paid</value>
+  </data>
+  <data name="AddWonTticketRetrieveError" xml:space="preserve">
+    <value>At present we can not validate the ticket, please try again later</value>
+  </data>
+  <data name="ST_BS_BET_PAYBACK" xml:space="preserve">
+    <value>Payback</value>
+  </data>
+  <data name="error0" xml:space="preserve">
+    <value>No error</value>
+  </data>
+  <data name="error002" xml:space="preserve">
+    <value>Can not find the list of values.</value>
+  </data>
+  <data name="error100" xml:space="preserve">
+    <value>Unable to verify your identity. Please check that the information is correct and try again.</value>
+  </data>
+  <data name="error1001" xml:space="preserve">
+    <value>Incorrect username</value>
+  </data>
+  <data name="error101" xml:space="preserve">
+    <value>Your account is blocked. Please contact us for assistance.</value>
+  </data>
+  <data name="error103" xml:space="preserve">
+    <value>Unable to complete the registration. Please contact us for assistance.</value>
+  </data>
+  <data name="error104" xml:space="preserve">
+    <value>The username is already in the system, enter new one.</value>
+  </data>
+  <data name="error105" xml:space="preserve">
+    <value>Your account is blocked. Please contact us for assistance.</value>
+  </data>
+  <data name="error106" xml:space="preserve">
+    <value>Is not found</value>
+  </data>
+  <data name="error107" xml:space="preserve">
+    <value>Your username or password is incorrect. Forgot your password? Get it $recovery$</value>
+  </data>
+  <data name="error108" xml:space="preserve">
+    <value>Has not been able to change your password. Please try again.</value>
+  </data>
+  <data name="error109" xml:space="preserve">
+    <value>Security codes do not match.</value>
+  </data>
+  <data name="error110" xml:space="preserve">
+    <value>You must fill in the required fields.</value>
+  </data>
+  <data name="error111" xml:space="preserve">
+    <value>A failure has occurred on the server, sorry for the inconvenience. Please try again in a few minutes.</value>
+  </data>
+  <data name="error112" xml:space="preserve">
+    <value>You can not log on right now. Please refresh the page and try again.</value>
+  </data>
+  <data name="error113" xml:space="preserve">
+    <value>The phone number you entered already exists. If you already have an account, you can retrieve your password by clicking $recovery$</value>
+  </data>
+  <data name="error114" xml:space="preserve">
+    <value>The NIF / NIE you entered already exists in the system. If you already have an account, you can retrieve your password by clicking $recovery$</value>
+  </data>
+  <data name="error115" xml:space="preserve">
+    <value>The email address you entered already exists in the system. If you already have an account, you can retrieve your password by clicking $recovery$</value>
+  </data>
+  <data name="error116" xml:space="preserve">
+    <value>You need to be of age to register</value>
+  </data>
+  <data name="error117" xml:space="preserve">
+    <value>There was an error in the registry. Please refresh the page and try again</value>
+  </data>
+  <data name="error119" xml:space="preserve">
+    <value>There was an internal error. Please refresh the page and try again.</value>
+  </data>
+  <data name="error120" xml:space="preserve">
+    <value>The activation code is incorrect. Please make sure it matches the code you have received to complete your registration.</value>
+  </data>
+  <data name="error121" xml:space="preserve">
+    <value>To perform this transaction is necessary to have completed document verification. You can get more $VerificacionD$</value>
+  </data>
+  <data name="error122" xml:space="preserve">
+    <value>There was an error. Please refresh the page and try again.</value>
+  </data>
+  <data name="error123" xml:space="preserve">
+    <value>There was an internal error. Please refresh the page and start the process again.</value>
+  </data>
+  <data name="error124" xml:space="preserve">
+    <value>Passwords do not match.</value>
+  </data>
+  <data name="error125" xml:space="preserve">
+    <value>There was an internal error. Please refresh the page and try again.</value>
+  </data>
+  <data name="error128" xml:space="preserve">
+    <value>You must fill in the fields of mobile and email.</value>
+  </data>
+  <data name="error129" xml:space="preserve">
+    <value>Email or Mobile already indicated. If you already have an account, you can retrieve your password by clicking $recovery$</value>
+  </data>
+  <data name="error131" xml:space="preserve">
+    <value>Internal error. Please try again.</value>
+  </data>
+  <data name="error132" xml:space="preserve">
+    <value>Internal error. Please try again.</value>
+  </data>
+  <data name="error140" xml:space="preserve">
+    <value>Internal error. Please try again.</value>
+  </data>
+  <data name="error141" xml:space="preserve">
+    <value>The bonus code entered does not exist or is inactive.</value>
+  </data>
+  <data name="error142" xml:space="preserve">
+    <value>Invalid password. Must be at least four digits.</value>
+  </data>
+  <data name="error143" xml:space="preserve">
+    <value>Your account has been locked due to incorrect login attempts. Can not remember your password? Get it $recovery$</value>
+  </data>
+  <data name="error144" xml:space="preserve">
+    <value>Invalid password. You must have at least one number.</value>
+  </data>
+  <data name="error145" xml:space="preserve">
+    <value>Invalid password. You must have at least one letter.</value>
+  </data>
+  <data name="error146" xml:space="preserve">
+    <value>Invalid password. Can not contain your name.</value>
+  </data>
+  <data name="error147" xml:space="preserve">
+    <value>Invalid password. Can not contain your name.</value>
+  </data>
+  <data name="error148" xml:space="preserve">
+    <value>Invalid password. Can not contain your name.</value>
+  </data>
+  <data name="error149" xml:space="preserve">
+    <value>Invalid password. Can not contain your username.</value>
+  </data>
+  <data name="error150" xml:space="preserve">
+    <value>Invalid password. Can not contain your date of birth.</value>
+  </data>
+  <data name="error151" xml:space="preserve">
+    <value>The amount entered exceeds the maximum allowed limit. &lt;br /&gt; </value>
+  </data>
+  <data name="error160" xml:space="preserve">
+    <value>You currently have disabled the option to deposit by card. For more information, contact us at apuestas@codere.com</value>
+  </data>
+  <data name="error161" xml:space="preserve">
+    <value>You currently have disabled the option to charge local Codere. For more information, contact us at apuestas@codere.com</value>
+  </data>
+  <data name="error701" xml:space="preserve">
+    <value>An attempt to verify identity. Please try again later</value>
+  </data>
+  <data name="error702" xml:space="preserve">
+    <value>Data error.</value>
+  </data>
+  <data name="error703" xml:space="preserve">
+    <value>User is banned list company</value>
+  </data>
+  <data name="error704" xml:space="preserve">
+    <value>The user is on the list of banned. Please contact us for assistance.</value>
+  </data>
+  <data name="error705" xml:space="preserve">
+    <value>The user is on the list of self-excluded. Please contact us for assistance.</value>
+  </data>
+  <data name="error706" xml:space="preserve">
+    <value>Account canceled</value>
+  </data>
+  <data name="error707" xml:space="preserve">
+    <value>Account suspended</value>
+  </data>
+  <data name="error708" xml:space="preserve">
+    <value>Suspended contract</value>
+  </data>
+  <data name="AddWonTticketZoneError" xml:space="preserve">
+    <value>Function available only with tickets generated in the Community of Madrid.</value>
+  </data>
+  <data name="Error2001" xml:space="preserve">
+    <value>You are trying to collect money from a bonus that has not yet been put into play. Bet {0} to collect all your balance.</value>
+  </data>
+  <data name="Error2002" xml:space="preserve">
+    <value>Oops ... do not have this amount in your account balance</value>
+  </data>
+  <data name="Account100" xml:space="preserve">
+    <value>Bet</value>
+  </data>
+  <data name="Account121" xml:space="preserve">
+    <value>Winning bet</value>
+  </data>
+  <data name="Account131" xml:space="preserve">
+    <value>Canceled bet</value>
+  </data>
+  <data name="Account151" xml:space="preserve">
+    <value>Undo winning bet error</value>
+  </data>
+  <data name="Account191" xml:space="preserve">
+    <value>Undo canceled bet error</value>
+  </data>
+  <data name="balanceLockedForTransaction" xml:space="preserve">
+    <value>Transaction couldnt be created because of blocked balance during the close ticket proccess.</value>
+  </data>
+  <data name="errorCreatingTransaction" xml:space="preserve">
+    <value>Transaction creation couldnt be completed.</value>
+  </data>
+  <data name="_leg1" xml:space="preserve">
+    <value>Leg 1</value>
+  </data>
+  <data name="_leg2" xml:space="preserve">
+    <value>Leg 2</value>
+  </data>
+  <data name="_leg3" xml:space="preserve">
+    <value>Leg 3</value>
+  </data>
+  <data name="_leg4" xml:space="preserve">
+    <value>Leg 4</value>
+  </data>
+  <data name="_leg5" xml:space="preserve">
+    <value>Leg 5</value>
+  </data>
+  <data name="_1ib" xml:space="preserve">
+    <value>First inning bottom</value>
+  </data>
+  <data name="_1it" xml:space="preserve">
+    <value>First inning top</value>
+  </data>
+  <data name="_2ib" xml:space="preserve">
+    <value>Second inning bottom</value>
+  </data>
+  <data name="_2it" xml:space="preserve">
+    <value>Second inning top</value>
+  </data>
+  <data name="_3ib" xml:space="preserve">
+    <value>Third inning bottom</value>
+  </data>
+  <data name="_3it" xml:space="preserve">
+    <value>Third inning top</value>
+  </data>
+  <data name="_bt1b1" xml:space="preserve">
+    <value>Break 1 top 1 bottom</value>
+  </data>
+  <data name="_bt2b1" xml:space="preserve">
+    <value>Break 2 top 1 bottom</value>
+  </data>
+  <data name="_bt2b2" xml:space="preserve">
+    <value>Break 2 top 2 bottom</value>
+  </data>
+  <data name="_bt3b2" xml:space="preserve">
+    <value>Break 3 top 2 bottom</value>
+  </data>
+  <data name="_bt3b3" xml:space="preserve">
+    <value>Break 3 top 3 bottom</value>
+  </data>
+  <data name="_10r" xml:space="preserve">
+    <value>10th Round</value>
+  </data>
+  <data name="_11r" xml:space="preserve">
+    <value>11th Round</value>
+  </data>
+  <data name="_12r" xml:space="preserve">
+    <value>12th Round</value>
+  </data>
+  <data name="_1r" xml:space="preserve">
+    <value>1st Round</value>
+  </data>
+  <data name="_2r" xml:space="preserve">
+    <value>2nd Round</value>
+  </data>
+  <data name="_3ot" xml:space="preserve">
+    <value>Third Overtime</value>
+  </data>
+  <data name="_3r" xml:space="preserve">
+    <value>3rd Round</value>
+  </data>
+  <data name="_4ib" xml:space="preserve">
+    <value>Fourth inning bottom</value>
+  </data>
+  <data name="_4it" xml:space="preserve">
+    <value>Fourth inning top</value>
+  </data>
+  <data name="_4ot" xml:space="preserve">
+    <value>Fourth Overtime</value>
+  </data>
+  <data name="_4r" xml:space="preserve">
+    <value>4th Round</value>
+  </data>
+  <data name="_5ib" xml:space="preserve">
+    <value>Fifth inning bottom</value>
+  </data>
+  <data name="_5it" xml:space="preserve">
+    <value>Fifth inning top</value>
+  </data>
+  <data name="_5ot" xml:space="preserve">
+    <value>Fifth Overtime</value>
+  </data>
+  <data name="_5r" xml:space="preserve">
+    <value>5th Round</value>
+  </data>
+  <data name="_6ib" xml:space="preserve">
+    <value>Sixth inning bottom</value>
+  </data>
+  <data name="_6it" xml:space="preserve">
+    <value>Sixth inning top</value>
+  </data>
+  <data name="_6ot" xml:space="preserve">
+    <value>Sixth Overtime</value>
+  </data>
+  <data name="_6r" xml:space="preserve">
+    <value>6th Round</value>
+  </data>
+  <data name="_6set" xml:space="preserve">
+    <value>Sixth set</value>
+  </data>
+  <data name="_7ib" xml:space="preserve">
+    <value>Seventh inning bottom</value>
+  </data>
+  <data name="_7it" xml:space="preserve">
+    <value>Seventh inning top</value>
+  </data>
+  <data name="_7r" xml:space="preserve">
+    <value>7th Round</value>
+  </data>
+  <data name="_7set" xml:space="preserve">
+    <value>Seventh set</value>
+  </data>
+  <data name="_8ib" xml:space="preserve">
+    <value>Eighth inning bottom</value>
+  </data>
+  <data name="_8it" xml:space="preserve">
+    <value>Eighth inning top</value>
+  </data>
+  <data name="_8r" xml:space="preserve">
+    <value>8th Round</value>
+  </data>
+  <data name="_9ib" xml:space="preserve">
+    <value>Nineth inning bottom</value>
+  </data>
+  <data name="_9it" xml:space="preserve">
+    <value>Nineth inning top</value>
+  </data>
+  <data name="_9r" xml:space="preserve">
+    <value>9th Round</value>
+  </data>
+  <data name="_bt4b3" xml:space="preserve">
+    <value>Break 4 top 3 bottom</value>
+  </data>
+  <data name="_bt4b4" xml:space="preserve">
+    <value>Break 4 top 4 bottom</value>
+  </data>
+  <data name="_bt5b4" xml:space="preserve">
+    <value>Break 5 top 4 bottom</value>
+  </data>
+  <data name="_bt5b5" xml:space="preserve">
+    <value>Break 5 top 5 bottom</value>
+  </data>
+  <data name="_bt6b5" xml:space="preserve">
+    <value>Break 6 top 5 bottom</value>
+  </data>
+  <data name="_bt6b6" xml:space="preserve">
+    <value>Break 6 top 6 bottom</value>
+  </data>
+  <data name="_bt7b6" xml:space="preserve">
+    <value>Break 7 top 6 bottom</value>
+  </data>
+  <data name="_bt7b7" xml:space="preserve">
+    <value>Break 7 top 7 bottom</value>
+  </data>
+  <data name="_bt8b7" xml:space="preserve">
+    <value>Break 8 top 7 bottom</value>
+  </data>
+  <data name="_bt8b8" xml:space="preserve">
+    <value>Break 8 top 8 bottom</value>
+  </data>
+  <data name="_bt9b8" xml:space="preserve">
+    <value>Break 9 top 8 bottom</value>
+  </data>
+  <data name="_bt9b9" xml:space="preserve">
+    <value>Break 9 top 9 bottom</value>
+  </data>
+  <data name="_bteib9" xml:space="preserve">
+    <value>Break extra inning top 9 bottom</value>
+  </data>
+  <data name="_bteibei" xml:space="preserve">
+    <value>Break extra inning top extra inning bottom</value>
+  </data>
+  <data name="_eib" xml:space="preserve">
+    <value>Extra inning bottom</value>
+  </data>
+  <data name="_eit" xml:space="preserve">
+    <value>Extra inning top</value>
+  </data>
+  <data name="_frame1" xml:space="preserve">
+    <value>Frame 1 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame10" xml:space="preserve">
+    <value>Frame 10 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame11" xml:space="preserve">
+    <value>Frame 11 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame12" xml:space="preserve">
+    <value>Frame 12 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame13" xml:space="preserve">
+    <value>Frame 13 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame14" xml:space="preserve">
+    <value>Frame 14 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame15" xml:space="preserve">
+    <value>Frame 15 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame16" xml:space="preserve">
+    <value>Frame 16 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame17" xml:space="preserve">
+    <value>Frame 17 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame18" xml:space="preserve">
+    <value>Frame 18 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame19" xml:space="preserve">
+    <value>Frame 19 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame2" xml:space="preserve">
+    <value>Frame 2 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame20" xml:space="preserve">
+    <value>Frame 20 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame21" xml:space="preserve">
+    <value>Frame 21 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame22" xml:space="preserve">
+    <value>Frame 22 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame23" xml:space="preserve">
+    <value>Frame 23 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame24" xml:space="preserve">
+    <value>Frame 24 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame25" xml:space="preserve">
+    <value>Frame 25 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame26" xml:space="preserve">
+    <value>Frame 26 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame27" xml:space="preserve">
+    <value>Frame 27 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame28" xml:space="preserve">
+    <value>Frame 28 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame29" xml:space="preserve">
+    <value>Frame 29 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame3" xml:space="preserve">
+    <value>Frame 3 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame30" xml:space="preserve">
+    <value>Frame 30 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame31" xml:space="preserve">
+    <value>Frame 31 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame32" xml:space="preserve">
+    <value>Frame 32 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame33" xml:space="preserve">
+    <value>Frame 33 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame34" xml:space="preserve">
+    <value>Frame 34 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame35" xml:space="preserve">
+    <value>Frame 35 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame4" xml:space="preserve">
+    <value>Frame 4 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame5" xml:space="preserve">
+    <value>Frame 5 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame6" xml:space="preserve">
+    <value>Frame 6 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame7" xml:space="preserve">
+    <value>Frame 7 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame8" xml:space="preserve">
+    <value>Frame 8 (SPIN-Snooker)</value>
+  </data>
+  <data name="_frame9" xml:space="preserve">
+    <value>Frame 9 (SPIN-Snooker)</value>
+  </data>
+  <data name="_leg10" xml:space="preserve">
+    <value>Leg 10</value>
+  </data>
+  <data name="_leg11" xml:space="preserve">
+    <value>Leg 11</value>
+  </data>
+  <data name="_leg12" xml:space="preserve">
+    <value>Leg 12</value>
+  </data>
+  <data name="_leg13" xml:space="preserve">
+    <value>Leg 13</value>
+  </data>
+  <data name="_leg14" xml:space="preserve">
+    <value>Leg 14</value>
+  </data>
+  <data name="_leg15" xml:space="preserve">
+    <value>Leg 15</value>
+  </data>
+  <data name="_leg16" xml:space="preserve">
+    <value>Leg 16</value>
+  </data>
+  <data name="_leg17" xml:space="preserve">
+    <value>Leg 17</value>
+  </data>
+  <data name="_leg18" xml:space="preserve">
+    <value>Leg 18</value>
+  </data>
+  <data name="_leg19" xml:space="preserve">
+    <value>Leg 19</value>
+  </data>
+  <data name="_leg20" xml:space="preserve">
+    <value>Leg 20</value>
+  </data>
+  <data name="_leg21" xml:space="preserve">
+    <value>Leg 21</value>
+  </data>
+  <data name="_leg6" xml:space="preserve">
+    <value>Leg 6</value>
+  </data>
+  <data name="_leg7" xml:space="preserve">
+    <value>Leg 7</value>
+  </data>
+  <data name="_leg8" xml:space="preserve">
+    <value>Leg 8</value>
+  </data>
+  <data name="_leg9" xml:space="preserve">
+    <value>Leg 9</value>
+  </data>
+</root>

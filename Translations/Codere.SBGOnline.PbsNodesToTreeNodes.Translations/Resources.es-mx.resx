@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddWonTicketTicketNotPaper" xml:space="preserve">
+    <value>El ticket introducido no ha sido generado en un book autorizado</value>
+  </data>
+  <data name="error122" xml:space="preserve">
+    <value>Actualmente tienes los cobros en book autorizado deshabilitados. Por favor contacta con nosotros para que podamos activarte esta opción.</value>
+  </data>
+  <data name="error161" xml:space="preserve">
+    <value>Actualmente tienes deshabilitada la opción de cobrar en book autorizado. Para obtener más información, contacta con nosotros en apuestas@codere.com</value>
+  </data>
+  <data name="LanguageCode" xml:space="preserve">
+    <value>es-mx</value>
+  </data>
+  <data name="_not_started" xml:space="preserve">
+    <value>Por comenzar</value>
+  </data>
+  <data name="_after_ot" xml:space="preserve">
+    <value>Después del descanso</value>
+  </data>
+  <data name="_awaiting_pen" xml:space="preserve">
+    <value>Esperando amonestación</value>
+  </data>
+  <data name="_gset" xml:space="preserve">
+    <value>Juego para set</value>
+  </data>
+  <data name="_nt_result" xml:space="preserve">
+    <value>Resultado en tiempo regular</value>
+  </data>
+  <data name="_ot" xml:space="preserve">
+    <value>Tiempo extra</value>
+  </data>
+  <data name="_ot_ht" xml:space="preserve">
+    <value>Descanso del tiempo extra</value>
+  </data>
+  <data name="_paused" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="_pen" xml:space="preserve">
+    <value>Amonestación</value>
+  </data>
+  <data name="_pen_result" xml:space="preserve">
+    <value>Marcador después de penales</value>
+  </data>
+  <data name="_rc" xml:space="preserve">
+    <value>Primero en llegar a X carreras</value>
+  </data>
+  <data name="_walkover" xml:space="preserve">
+    <value>No se presentó</value>
+  </data>
+  <data name="__1p_ot" xml:space="preserve">
+    <value>1º tiempo extra</value>
+  </data>
+  <data name="__2p_ot" xml:space="preserve">
+    <value>2º tiempo extra</value>
+  </data>
+  <data name="__awaiting_ot" xml:space="preserve">
+    <value>Esperando tiempo extra</value>
+  </data>
+  <data name="_10r" xml:space="preserve">
+    <value>Round 10</value>
+  </data>
+  <data name="_11r" xml:space="preserve">
+    <value>Round 11</value>
+  </data>
+  <data name="_12r" xml:space="preserve">
+    <value>Round 12</value>
+  </data>
+  <data name="_1ot" xml:space="preserve">
+    <value>1º tiempo extra</value>
+  </data>
+  <data name="_1r" xml:space="preserve">
+    <value>Round 1</value>
+  </data>
+  <data name="_2ot" xml:space="preserve">
+    <value>2º tiempo extra</value>
+  </data>
+  <data name="_2r" xml:space="preserve">
+    <value>Round 2</value>
+  </data>
+  <data name="_3ot" xml:space="preserve">
+    <value>3ª tiempo extra</value>
+  </data>
+  <data name="_3r" xml:space="preserve">
+    <value>Round 3</value>
+  </data>
+  <data name="_4ot" xml:space="preserve">
+    <value>4ª tiempo extra</value>
+  </data>
+  <data name="_4r" xml:space="preserve">
+    <value>Round 4</value>
+  </data>
+  <data name="_5ot" xml:space="preserve">
+    <value>5ª tiempo extra</value>
+  </data>
+  <data name="_5r" xml:space="preserve">
+    <value>Round 5</value>
+  </data>
+  <data name="_6ot" xml:space="preserve">
+    <value>6ª tiempo extra</value>
+  </data>
+  <data name="_6r" xml:space="preserve">
+    <value>Round 6</value>
+  </data>
+  <data name="_7r" xml:space="preserve">
+    <value>Round 7</value>
+  </data>
+  <data name="_8r" xml:space="preserve">
+    <value>Round 8</value>
+  </data>
+  <data name="_9r" xml:space="preserve">
+    <value>Round 9</value>
+  </data>
+  <data name="_b5qt" xml:space="preserve">
+    <value>1ª tiempo extra</value>
+  </data>
+  <data name="_b6qt" xml:space="preserve">
+    <value>2ª tiempo extra</value>
+  </data>
+  <data name="_b7qt" xml:space="preserve">
+    <value>3ª tiempo extra</value>
+  </data>
+  <data name="_b8qt" xml:space="preserve">
+    <value>4ª tiempo extra</value>
+  </data>
+  <data name="_periodEnded" xml:space="preserve">
+    <value>Partido finalizado</value>
+  </data>
+  <data name="_after_pen" xml:space="preserve">
+    <value>Resultado después de penales</value>
+  </data>
+</root>
